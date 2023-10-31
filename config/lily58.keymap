@@ -63,11 +63,11 @@
 
             label = "Raise";
             bindings = <
-&kp GRAVE  &trans  &trans        &trans        &trans        &trans                    &trans       &trans     &trans        &trans           &trans         &trans
-&trans     &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                    &trans       &kp HOME   &kp UP_ARROW  &kp END          &trans         &trans
-&trans     &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans                    &trans       &kp LEFT   &kp DOWN      &kp RIGHT        &trans         &trans
-&trans     &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp KP_MULTIPLY  &kp KP_DIVIDE  &trans
-                                 &trans        &kt NUMBER_0  &trans  &trans    &trans  &trans       &trans     &trans
+&kp GRAVE  &trans        &trans        &trans        &trans        &trans                    &trans       &trans     &trans        &trans           &trans         &trans
+&trans     &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                    &trans       &kp HOME   &kp UP_ARROW  &kp END          &trans         &trans
+&trans     &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans                    &trans       &kp LEFT   &kp DOWN      &kp RIGHT        &trans         &trans
+&trans     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp KP_MULTIPLY  &kp KP_DIVIDE  &trans
+                                       &trans        &trans        &trans  &trans    &trans  &trans       &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
