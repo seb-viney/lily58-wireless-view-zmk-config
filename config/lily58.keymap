@@ -43,11 +43,11 @@
 
             label = "Lower";
             bindings = <
-&kp F12    &kp F1    &kp F2        &kp F3        &kp F4        &kp F5                          &kp F6     &kp F7      &kp F8           &kp F9    &kp F10   &kp F11
-&kp GRAVE  &kp EXCL  &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                       &kp CARET  &kp AMPS    &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BACKSLASH
-&trans     &trans    &trans        &trans        &trans        &trans                          &trans     &trans      &trans           &kp LBKT  &kp RBKT  &kp PIPE
-&trans     &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans    &trans  &trans     &kp MINUS   &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp FSLH
-                                   &bt BT_CLR    &trans        &trans        &trans    &trans  &trans     &kp DELETE  &trans
+&kp F12        &kp F1    &kp F2        &kp F3        &kp F4        &kp F5                          &kp F6     &kp F7      &kp F8           &kp F9    &kp F10   &kp F11
+&kp GRAVE      &kp EXCL  &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                       &kp CARET  &kp AMPS    &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BACKSLASH
+&trans         &trans    &trans        &trans        &trans        &trans                          &trans     &trans      &trans           &kp LBKT  &kp RBKT  &kp PIPE
+&caps_word     &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans    &trans  &trans     &kp MINUS   &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp FSLH
+                                       &bt BT_CLR    &trans        &trans        &trans    &trans  &trans     &kp DELETE  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -66,7 +66,7 @@
 &kp GRAVE   &trans        &trans        &trans             &trans        &trans                    &trans       &trans     &trans        &trans           &trans         &kp LC(LA(F11))
 &trans      &trans        &kp NUMBER_7  &kp NUMBER_8       &kp NUMBER_9  &trans                    &trans       &kp HOME   &kp UP_ARROW  &kp END          &trans         &trans
 &trans      &trans        &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6  &trans                    &trans       &kp LEFT   &kp DOWN      &kp RIGHT        &trans         &trans
-&caps_word  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3  &trans  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp KP_MULTIPLY  &kp KP_DIVIDE  &trans
+&trans      &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3  &trans  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp KP_MULTIPLY  &kp KP_DIVIDE  &trans
                                         &ext_power EP_TOG  &trans        &trans  &trans    &trans  &trans       &trans     &trans
             >;
 
